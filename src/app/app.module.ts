@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { Dashboardguard } from './services/dashboardguard.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -19,6 +20,7 @@ import { ShareModule } from './share/share.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
     DashboardModule,
     ShareModule
   ],
